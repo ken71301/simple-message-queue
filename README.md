@@ -62,3 +62,12 @@ Here are some potential improvements that can be made to the project:
 - [ ] Using async test.
 - [ ] Add more comprehensive logging and monitoring.
 - [ ] Optimize the Docker setup for faster builds and smaller image sizes, it's way too bulky.
+
+## Special Thanks
+This project is my first experience working with FastAPI and Redis. Its an interesting project to try and figure out the knowledge that I haven't touched before. 
+Here are some resources that helped me along the way: 
+
+- [FastAPI Documentation](https://fastapi.tiangolo.com/)
+- [Redis Documentation](https://redis.io/documentation)
+- [RQ](https://python-rq.org/)
+- [fastapi-redis-tutorial](https://github.com/redis-developer/fastapi-redis-tutorial)
