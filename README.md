@@ -34,7 +34,9 @@ This command starts the Redis server, the FastAPI application, the test, and the
 ## API Endpoints
 
 - **Receive Task**: `POST /app/tasks/receive` - Enqueue a new task.
+  - Use it to push a new task into the queue, which would sleep for 3s when worker try to run it.
 - **Cancel Task**: `POST /app/tasks/cancel` - Cancel a task.
+  - Use it to cancel a task that is currently in the queue, no matter it is started or queued, but it will lead the task to different registry in rq.
 - **Get Queued Jobs**: `GET /app/tasks/queued_jobs` - Get the list of queued jobs.
 - **Get Canceled Jobs**: `GET /app/tasks/cancelled_jobs` - Get the list of canceled jobs.
 - **Get Finished Jobs**: `GET /app/tasks/finished_jobs` - Get the list of finished jobs.
