@@ -9,7 +9,7 @@ This project demonstrates how to build a simple message queue using `rq` (Redis 
 - **Automatic Worker Creation**: Automatically creates workers to process jobs.
 - **Docker Compose**: Uses `docker-compose` to manage and run the application and its dependencies.
 - **Swagger Documentation**: Available at `http://localhost:8080/docs`.
-- **RQ Dashboard**: Available at `http://localhost:8080/rq`.
+- **RQ Dashboard**: For simple monitoring. Available at `http://localhost:8080/rq`.
 
 ## Setup
 
@@ -53,4 +53,12 @@ The status of a job changes as it moves through the queue and is processed by wo
 ## License
 
 This project is licensed under the MIT License.
-```
+
+## Future Improvements
+
+Here are some potential improvements that can be made to the project:
+
+- [ ] Implement pub / sub without rq, make it more customizable.
+- [ ] Using async test.
+- [ ] Add more comprehensive logging and monitoring.
+- [ ] Optimize the Docker setup for faster builds and smaller image sizes, it's way too bulky.
