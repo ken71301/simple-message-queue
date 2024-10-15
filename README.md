@@ -29,7 +29,7 @@ Use the following command to start the application, Redis, and the worker:
 docker-compose up
 ```
 
-This command starts the Redis server, the FastAPI application, and the worker.
+This command starts the Redis server, the FastAPI application, the test, and the worker.
 
 ## API Endpoints
 
